@@ -17,4 +17,15 @@ function addScore(currentScore, eaten) {
 		scoreToAdd = 400;
 		break
 	}
+return currentScore + scoreToAdd;
 }
+
+var score =0;
+
+score = addScore(score,'dot');
+score = addScore(score,'dot');
+score = addScore(score,'dot');
+score = addScore(score,'powerPellet');
+score = addScore(score,'powerPellet');
+score = addScore(score,'firstGhost');
+console.log('Your score:' + score);
